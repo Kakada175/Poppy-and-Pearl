@@ -240,7 +240,7 @@ Through this project, I learned:
 
 ---
 
-## 👨‍💻 Author
+## 👩‍💻 Author
 
 **Chhem Kakada**
 🎓 Computer Science & Engineering Student
