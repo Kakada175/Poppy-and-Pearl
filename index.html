@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Poppy & Pearl | Minimalist Korean-Inspired Fashion for Gen Z</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Poppy & Pearl is a Korean-inspired fashion store offering minimalist styles for Gen Z. Discover comfy, trendy tops, bottoms, skirts, and accessories that elevate your look." />
+    <meta name="keywords" content="Korean fashion, minimalist fashion, Gen Z clothing, Poppy & Pearl store, tops, skirts, streetwear, accessories, modern style" />
+    <meta name="author" content="Poppy & Pearl by Kakada" />
+
+    <!-- Performance-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Poppy & Pearl</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navMenu"
+                aria-controls="navMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="card.html">🛒Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order-summary.html">Your Order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item" id="auth-section">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#authModal">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-images text-center py-4 pt-5 mt-5">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-4">
+                    <img src="images/Models/model2.jpeg" class="img-fluid rounded shadow" alt="Look 1">
+                </div>
+                <div class="col-4">
+                    <img src="images/Models/model3.jpeg" class="img-fluid rounded shadow" alt="Look 2">
+                </div>
+                <div class="col-4">
+                    <img src="images/Models/modernmodel.jpeg" class="img-fluid rounded shadow" alt="Look 3">
+                </div>
+            </div>
+            <h1 class="mt-4">Soft. Simple. Seoul.</h1>
+            <p>Discover minimalist Korean-inspired fashion made just for you.</p>
+            <a href="shop.html" class="btn btn-primary mt-2">Shop Now</a>
+        </div>
+    </section>
+
+
+    <!-- Featured Products -->
+    <section class="container my-5">
+        <h2 class="mb-4 text-center">Featured Products</h2>
+        <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+            <img
+                src="images/Sets/preppyminidress.jpg"
+                class="card-img-top"
+                alt="Oversized Tee"
+            />
+            <div class="card-body">
+                <h5 class="card-title">Preppy Vintage Dress</h5>
+                <p class="card-text text-muted">$25.50</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+            <img
+                src="images/Tops/corsetblazer.jpg"
+                class="card-img-top"
+                alt="Pastel Highlighter Set"
+            />
+            <div class="card-body">
+                <h5 class="card-title">Black Corset Blazer</h5>
+                <p class="card-text text-muted">$35.00</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+            <img
+                src="images/Bottoms/cherrytrouser.jpg"
+                class="card-img-top"
+                alt="Cute Bear Phone Case"
+            />
+            <div class="card-body">
+                <h5 class="card-title">Red Cherry Trouser</h5>
+                <p class="card-text text-muted">$25.00</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+            <img
+                src="images/Skirts/metalicskirt.jpg"
+                class="card-img-top"
+                alt="Choco Pie – Korea"
+            />
+            <div class="card-body">
+                <h5 class="card-title">Metalic Mini Skirt</h5>
+                <p class="card-text text-muted">$15.00</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="container my-5">
+        <h2 class="mb-4 text-center">Shop by Category</h2>
+        <div class="row text-center g-4">
+
+            <!-- Tops -->
+            <div class="col-md-4">
+                <a href="tops.html" class="text-decoration-none text-dark">
+                    <img src="images/Tops/bluestripetop.jpg" alt="Blue Striped top from Komi" class="img-fluid rounded shadow category-image mb-2" style="width: 80%; height: 500px;" />
+                    <h5>Tops</h5>
+                </a>
+            </div>
+
+            <!-- Bottoms -->
+            <div class="col-md-4">
+                <a href="bottoms.html" class="text-decoration-none text-dark">
+                    <img src="images/Bottoms/leathertrouser.jpg" alt="Leather Black Trouser from Komi" class="img-fluid rounded shadow category-image mb-2" style="width: 80%; height: 500px;" />
+                    <h5>Bottoms</h5>
+                </a>
+            </div>
+
+            <!-- Accessories -->
+            <div class="col-md-4">
+                <a href="accessory.html" class="text-decoration-none text-dark">
+                    <img src="images/Acessories/download(10).jpg" alt="Y2k Jewelry from Komi" class="img-fluid rounded shadow category-image mb-2" style="width: 80%; height: 500px;" />
+                    <h5>Accessories</h5>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-light text-muted border-top mt-5 pt-4">
+        <div class="container py-4">
+            <!-- About Poppy & Pearl -->
+            <div class="text-center mb-4">
+            <h5 class="text-dark fw-bold">About Poppy & Pearl</h5>
+            <p style="max-width: 600px; margin: 0 auto;">
+                Poppy & Pearl is a minimalist-inspired fashion shop blending softness, simplicity, and Seoul street vibes.
+                We bring comfort and style to the heart of Gen Z.
+            </p>
+            </div>
+
+            <!-- Social & Payment Row -->
+            <div class="row text-center text-md-start align-items-center">
+            <!-- Social Media -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                <h6 class="fw-semibold mb-2">Follow Us</h6>
+                <a href="https://www.instagram.com/__jjein__?igsh=aXR0a2p1NWx5emp4&utm_source=qr" class="text-muted mx-2 fs-4" aria-label="Visit our Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/jj4in?mibextid=LQQJ4d" class="text-muted mx-2 fs-4" aria-label="Visit our Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-muted mx-2 fs-4" aria-label="Visit our TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://youtube.com/@jeinjein1318?si=UHvMyIQV1jnelU7H" class="text-muted mx-2 fs-4" aria-label="Visit our Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="col-md-6 text-md-end">
+                <h6 class="fw-semibold mb-2">We Accept</h6>
+                <img src="images/footer/aba.jpg" alt="ABA Pay" style="height: 40px; margin-right: 10px; border-radius: 10px;">
+                <img src="images/footer/acelida.png" alt="ACLEDA Pay" style="height: 40px;">
+            </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+            <p class="text-muted small mb-0">© 2025 Poppy & Pearl. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Auth Modal -->
+    <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="authModalLabel">Welcome to Poppy & Pearl! 💖</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Toggle Buttons -->
+                    <div class="d-flex justify-content-center mb-3">
+                        <button class="btn btn-komi-login me-2" id="show-login">Login</button>
+                        <button class="btn btn-komi-signup" id="show-signup">Sign Up</button>
+                    </div>
+
+                    <!-- Login Form -->
+                    <form id="login-form" class="auth-form">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Username" id="login-username" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Password" id="login-password" required>
+                    </div>
+                    <button type="submit" class="btn btn-komi-login w-100">Login</button>
+                    </form>
+
+                    <!-- Signup Form -->
+                    <form id="signup-form" class="auth-form d-none">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Username" id="signup-username" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email" id="signup-email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Password" id="signup-password" required>
+                    </div>
+                    <button type="submit" class="btn btn-komi-signup w-100">Sign Up</button>
+                    </form>
+
+                    <!-- Message -->
+                    <div class="text-center mt-3" id="auth-msg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/auth-modal.js"></script>
+</body>
+</html>

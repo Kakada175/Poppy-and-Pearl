@@ -1,0 +1,43 @@
+/* card.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #a8c6fa;
+}
+.navbar-nav .nav-link {
+  margin: 0 5px;
+}
+.navbar .nav-link.active:hover {
+    color: rgb(255, 0, 162);
+}
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #88b1f7;
+}
+.remove-btn {
+  margin-top: 10px;
+}
+.card-wrapper {
+  max-width: 260px;
+  margin: 0 auto;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+.custom-modal-height {
+  max-height: 600px; /* or any height you prefer */
+}
+
+

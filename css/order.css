@@ -1,0 +1,26 @@
+/* order.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #a8c6fa;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link {
+  margin: 0 5px;
+}
+.navbar .nav-link.active:hover {
+    color: rgb(255, 0, 162);
+}
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #88b1f7;
+}
